@@ -1,0 +1,38 @@
+{
+  "name": "purescript-dynamo-graph",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir src --extensions '.es'",
+    "dev": "babel src --out-dir src --extensions '.es' --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqyu/purescript-dynamo-graph.git"
+  },
+  "keywords": [
+    "purescript",
+    "dynamodb",
+    "dynamo",
+    "graph",
+    "aws",
+    "graphdb",
+    "database"
+  ],
+  "author": "James Yu",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jqyu/purescript-dynamo-graph/issues"
+  },
+  "homepage": "https://github.com/jqyu/purescript-dynamo-graph#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "dynamo-graph": "0.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.0",
+    "babel-preset-stage-0": "^6.5.0"
+  }
+}
